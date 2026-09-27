@@ -1,0 +1,331 @@
+nav {
+  /* border: solid; */
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(248, 250, 250);
+}
+
+ul {
+  height: 100px;
+  width: 80%;
+  list-style: none;
+  /* border: solid; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+article {
+  /* border: solid; */
+  display: flex;
+  justify-content: space-between;
+}
+
+article aside:first-child {
+  font-size: 70px;
+  background-image: linear-gradient(to right, #337ae5 0, #408fe5 34%, #d4734a 71%, #ea6b2e 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+.holiday {
+  text-align: end;
+  width: 350px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+img {
+  height: 100px;
+  width: 150px;
+}
+
+.gapimg,
+.firstSlider {
+  display: flex;
+  gap: 30PX;
+}
+
+.gapimg {
+    width: 3000px;
+    height: 450px;
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.imgslider {
+  gap: 30px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+   overflow-x: scroll;
+}
+
+.figtext {
+  text-align: center;
+  font-weight: 600;
+}
+
+.headingcolor1{
+  background-image: linear-gradient(to right, #337ae5 0, #408fe5 34%, #d4734a 71%, #ea6b2e 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+.headingcolor2{
+  background-image: linear-gradient(gray);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* .img{
+  height: 500px;
+} */
+
+.image1 {
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-holiday-iphone-17-pro-202511?wid=960&hei=1000&fmt=jpeg&qlt=90&.v=UWdrNzNrY0ZiOGhRNlVuUlF4U3Jod29LUXdLa0l4eHE1eFJDMGV5aG5PcGlJYS9HR0pEWlRaNTQ5aGsvYnhrYlM3UUxhTDY4VmxnT1pqOEpldm1McndYUldRZVYxMHFkRFZrQVZuaWMwSkFNQ1VOQ3VjWVczZldpb3Zjckt2L04);
+}
+.image2 {
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-holiday-macbook-pro-202511?wid=960&hei=1000&fmt=jpeg&qlt=90&.v=UWdrNzNrY0ZiOGhRNlVuUlF4U3JoNmpHK2tTaEJpamxmbmdxR0xsQ1lsRDZqM2NrRWhBQWp6Y0VabWoxUktZZllEamZDVFNES0txdDcrN05FQnRVVVZIRWc3ZElMR0hNTHNzOE4xdkZ3N2NpbDRIRWlLN2J5NUw1OFB3UTNQY2I);
+}
+.image3 {
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-holiday-ipad-pro-202511?wid=960&hei=1000&fmt=jpeg&qlt=90&.v=UWdrNzNrY0ZiOGhRNlVuUlF4U3JoOHBEMFY1ZWJ6N3JKaGFIMGVpb0E1SVdLZXJqVmFsbnhRcUdNVU4xNFVUZjczTGJ1bkVZOVdxMC9CSUwydmQ4a0NEQitwUkl0K1BsbXBFa3ZzYkFwT0lJZlg1K1VSMzYrZmlTTjlzTnRzUFM);
+}
+.image4 {
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-holiday-watch-s11-202511?wid=960&hei=1000&fmt=jpeg&qlt=90&.v=UWdrNzNrY0ZiOGhRNlVuUlF4U3JoNm1CcUdGVVdYV0JaTXRqdUlRVTRRZUx6Q1VSQ3BmNkIrSU9EZTEwMzltNFJSeXJaL3JqNm9jc2psYU5Qelh0TmhtejV5bnNoUG82YkVqZVhGVHJRSjd0bER1WGZ5VTI5OHA0ZWhhK1hmQm8);
+}
+.image5 {
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-holiday-iphone-17-202511?wid=960&hei=1000&fmt=jpeg&qlt=90&.v=UWdrNzNrY0ZiOGhRNlVuUlF4U3Jod29LUXdLa0l4eHE1eFJDMGV5aG5PcUx6Q1VSQ3BmNkIrSU9EZTEwMzltNFJSeXJaL3JqNm9jc2psYU5Qelh0TmhtejV5bnNoUG82YkVqZVhGVHJRSjR5SHhQUEh4akwvR1cxaFMzMHR4UUM);
+}
+.image6 {
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-holiday-macbook-air-202511?wid=960&hei=1000&fmt=jpeg&qlt=90&.v=UWdrNzNrY0ZiOGhRNlVuUlF4U3JoemNuSDFjY1g5TXJ2VDdqcm9MQmhkbG5WN1AwSEVaRjI4R0JlQ1VUZWZLMVlEamZDVFNES0txdDcrN05FQnRVVVZIRWc3ZElMR0hNTHNzOE4xdkZ3N2VlUkJkMkh0cHFPU3lpTkxkNVJ2c1Q);
+}
+.image7 {
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-holiday-iphone-air-202511?wid=960&hei=1000&fmt=jpeg&qlt=90&.v=UWdrNzNrY0ZiOGhRNlVuUlF4U3JoNjhTUlpZTGxJbXh5dHNBa0lFZi95dVJrM1JudG1iZ3ZLdGhSR1FVNDJUb3AwckMxbExydC8yeDhtUjlFVHdKVmtQQ3ZsREVjcTMrNnFZZjNPc2lwS25rL2VtMlRFYkdadjVLcmV6WE1IeDU);
+}
+.image8 {
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-holiday-watch-ultra-202511_GEO_IN?wid=960&hei=1000&fmt=jpeg&qlt=90&.v=UWdrNzNrY0ZiOGhRNlVuUlF4U3JoOUxmcStEYTVKc0pkcnEwY2J3d0txR0tabzZuYzFtaGN5QVBNUVEvcUhWd0pQdVJZZWNIQk44d1RuWU5yRGdkV1d4YXJFQWFnVmkrMkUzQ3k2TDVtN0UwUzZNOU85YWVyK2Z5SitXTnNHbVlpU3kyL0FKUlpaZ25KNUNrQi8rOWdR);
+}
+.image9 {
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-holiday-watch-se-202511?wid=960&hei=1000&fmt=jpeg&qlt=90&.v=UWdrNzNrY0ZiOGhRNlVuUlF4U3JoOXlzalBnQlhPRFpjZ0xYam5Pd0tYc1dLZXJqVmFsbnhRcUdNVU4xNFVUZjczTGJ1bkVZOVdxMC9CSUwydmQ4a0NEQitwUkl0K1BsbXBFa3ZzYkFwT0paZC9Mc1lFZzNORmk3Ulc0NVVkQTE);
+}
+
+.img {
+  /* border: solid; */
+  height: 400px;
+  width: 350px;
+  border-radius: 5%;
+  overflow: hidden;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.image1position {
+  position: relative;
+  top: 0px;
+  bottom: 10px;
+  font-weight: 500;
+  left: 20px;
+}
+
+.imgcolor {
+  background-image: linear-gradient(108deg, #0079d0 0, #9e52d8 10%, #da365c 34%, #d04901 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.img:hover{
+  transform: scale(1.01);
+  transition: 1s;
+  box-shadow: 0px 0px 10px black;
+}
+
+.image10{
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-holiday-engraving-202511?wid=800&hei=1000&fmt=png-alpha&.v=VXNuZmVZU0R3VzJZalF2dFJTeUN3OHpsNkNPdlBTek5UUTJnR2hnYjFTUnJKNHVhYyszMXA5b0NXK0pyZit0S0RqRlBHZUVBNDNOWURodnJuL3FXOGZGTG92MExJbXhSakVGc0FMTVkzQVJJb0huN1Y3Q1N0Z2pqdnNuMnlyZGY);
+}
+
+.imghw{
+  position: relative;
+  left: 30px;
+  height: 300px;
+  width: 250px;
+}
+
+.FreeEngraving{
+color: #b64400;
+}
+
+.image13{
+  background-image: url();  
+}
+.image14{
+  background-image: url();  
+}
+.image15{
+  background-image: url();  
+}
+.image16{
+  background-image: url();  
+}
+.image17{
+  background-image: url();  
+}
+.image18{
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mac-card-50-customize-202510?wid=960&hei=1000&fmt=png-alpha&.v=bDRLaHpoVW9nVjBjSlA4Z0FhWWNDd29oTlV4UndEUE1EbzdWbmJyaFZnd0F3Wk1qdTlJUXpYbmUrMWJwLzZvbW53M0FRZHBXNTh1U1lFVEtSR2YzTm5yTFY1NWZxSjdkZnVRcm1hck9LOW8);  
+}
+
+/* .shell2img{
+   border: solid;
+  height: 250px;
+  width: 200px;
+  border-radius: 5%;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+ .image19{
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-holiday-quick-picks-202511?wid=800&hei=1000&fmt=png-alpha&.v=VXNuZmVZU0R3VzJZalF2dFJTeUN3NlFuQVo3RmFFcFNVMk9nWkpuTmdiVjhkTWtQaklqN1hVbUJuZDI2K0ZYR3FoMGhnTzlhZS83Wm5PWi9peVJQV1RhTXRvVjNWRm1GTzNhemV2TllMV1RDYXg0eDBXNi9GME1kQzh0ZVBrRE8);
+ }
+.image20{
+  background-image: url();
+ }
+.image21{
+   background-image: url(); 
+ }
+.image22{
+   background-image: url(); 
+ }
+.image23{
+   background-image: url(); 
+ }
+.image24{
+  background-image: url();
+ }
+.image25{
+  background-image: url();
+ }
+.image26{
+  background-image: url();
+ }
+.image27{
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-holiday-delivery-pickup-202511?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=VXNuZmVZU0R3VzJZalF2dFJTeUN3OEhURHAzWTRheHBYbjAwcUUxa2hucklZRWJDcEdBQXFBeFhlbncwWHB0NUhkV3EvSkFicjVSdTltY1FJV1cvUTlrb3YwRE90eklmVkIwdHovcEFheWhkUFdYaXF6Sm5tdXN5bFROSnoxR3M);
+}
+.image28{
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-holiday-gifting-202511?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=VXNuZmVZU0R3VzJZalF2dFJTeUN3N0FnNjZ5b3VuRHdiZ0w2a3JLMHRPM2lDdDlGRG51RlhGY1hOcndnQ2dsa3FmS3YvQ0doSFZENndQR0J4TTRqbjJYN2ZHbXp0SUFVOXM4K0lrV09qWDF1ZFlybWdjbnlsQ3RZTHhVWXhKSDc);
+}
+.image29{
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-holiday-specialist-help-202511?wid=4000&hei=4167&fmt=p-jpg&qlt=95&.v=VXNuZmVZU0R3VzJZalF2dFJTeUN3K0hwSnRqZittbW9zMW4wdkliUkY4czJtSnl1aWxWK21rcHM4QnZ6MzIvSS85UDFrREVCUFJWRFNDVDBTQjFJZ3VCc3FjamJwVXJjd2U3WEc3Smc2MXc5bnRCTzNjcGJSeTBxcEdNeDUvdDdmbW94YnYxc1YvNXZ4emJGL0IxNFp3);
+}
+.image30{
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-specialist-video-202509_GEO_IN?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=TkJLQU9OWTZMS1N4dlhoOWl3SEhrYnlpTHAvaU1TZWJjTXg3K2FoelBrWm5QWkRWVkQreS9hNkYrR3V6eWFwQUFNR1RJN3ZTRU0xNTN2dFc2ZitxSnRrb3YwRE90eklmVkIwdHovcEFheWdaRDBsWVp2QktibVN1ZGcvbS9iM2Q);
+}
+.image31{
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-personal-setup-202408?wid=960&hei=1000&fmt=jpeg&qlt=90&.v=cFhHZjJBWFBWT2pMQnNFR2RGWlEwWlNLRUlsMkFxY1ZMQzZzY0tkenJrbmJpYlE0VldEazFQNXh6WFBPRkF3SkNCU0FaeWoydmlkcUQ2ZE1iOXpORmpBUGxFb0lRTlNHWjd1dU1qQmNiSElybzRWSGZSUmg3aDF5MjF6RzJrM0o);
+}
+ .image32{
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-bts-edu-macbook-air-ipad-air-202503?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=bTAvUVhobndWL01MVC9aenBVVGo5YWZmUzB4a3czWENOTU1QWVJ1K01WWk5LOEsyMEhpRHE1T1EzSDFwQVpKVzF1WTFUcUFiTi80Y2ZLM2ZEQmtMcjJhUXpzSGp3b1lnNUp6M2lSQzZEVVBiYmVpOUU2RG04OHJUUjJybTZTeHFHaXB3VUEzd1huUnhZRnQ3eTQ1QUdB);
+ }
+ .image33{
+  color: white;
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-business-202506?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=TVRWamYxMHBJRG5zb0o5SDIweUVicDBGT083bklMYlpBa00yWlRMeFBWWDZXYXJlRUd1cTBYTnRnbTNlazIvMzRHeXB5TnVsU3R6Qjd0Y2JzbURyWEpkQUpISXpCRGs5NlQ4Rlg4eUtkYTUrYWpGdS9XeFgvbS9ITnNYOEhYaG4);
+ }
+
+ .button{
+  border-radius: 20px;
+  
+ }
+
+ button:hover{
+  background-color: black;
+  color: white;
+ }
+
+ .gaptext{
+  gap: 30px;
+ }
+
+ table{
+    text-decoration: none;
+   color: black;
+ }
+
+ body{
+  /* background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-holiday-bg-202511?wid=6016&hei=1128&fmt=webp-alpha&qlt=90&.v=ZTVsU0x6eHB4S05JWHE5KzZCT2c1Nms1YXU0bzVDZkNNdkloOXA4YlhWdHdBREpOK2R5ZHEwZ28yMjBiMUNBaVMvTzFoYldZUjdReTJKL3ZTRmw2blVNUVZYR0IwODZ0ZEJPdFB4K0J1dVYrYWpGdS9XeFgvbS9ITnNYOEhYaG4&traceId=1); */
+  overflow-x: hidden;
+    /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+   /* background-color: rgb(248, 250, 250); */
+ }
+
+ .backgroundimage{
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-holiday-bg-202511?wid=6016&hei=1128&fmt=webp-alpha&qlt=90&.v=ZTVsU0x6eHB4S05JWHE5KzZCT2c1Nms1YXU0bzVDZkNNdkloOXA4YlhWdHdBREpOK2R5ZHEwZ28yMjBiMUNBaVMvTzFoYldZUjdReTJKL3ZTRmw2blVNUVZYR0IwODZ0ZEJPdFB4K0J1dVYrYWpGdS9XeFgvbS9ITnNYOEhYaG4&traceId=1);
+  background-position: center;
+  background-size: cover;
+ }
+
+ table a{
+  color: black;
+  text-decoration: none;
+ }
+
+ table a:hover{
+  text-decoration: underline;
+ }
+
+ .lastrow a{
+  /* justify-content: center; */
+  color: black;
+  text-decoration: none;
+ }
+
+ .lastrow a:hover{
+  text-decoration: underline;
+ }
+.grid :first-child{
+  display: grid;
+  height: 100px;
+  width: 100px;
+  border: solid;
+  background-color: white;
+
+}
+.grid :nth-child(2){
+  display: grid;
+  height: 100px;
+  width: 100px;
+  border: solid;
+  background-color: white;
+
+}
+.grid :nth-child(3){
+   display: grid;
+  height: 100px;
+  width: 100px;
+  border: solid;
+  background-color: white;
+
+}
+.grid :nth-child(4){
+   display: grid;
+  height: 100px;
+  width: 100px;
+  border: solid;
+  background-color: white;
+}
